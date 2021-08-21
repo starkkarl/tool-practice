@@ -6,6 +6,7 @@
     <modules>
         <module>basecode</module>
         <module>guava-demo</module>
+        <module>quartz-demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
