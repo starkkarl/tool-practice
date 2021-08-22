@@ -7,6 +7,7 @@
         <module>basecode</module>
         <module>guava-demo</module>
         <module>quartz-demo</module>
+        <module>vue-element-admin-study</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
