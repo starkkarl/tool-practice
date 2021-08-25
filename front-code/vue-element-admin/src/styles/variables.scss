@@ -1,4 +1,4 @@
-// base color
+// base color  侧边栏颜色修改
 $blue:#324157;
 $light-blue:#3A71A8;
 $red:#C03639;
@@ -9,17 +9,17 @@ $yellow:#FEC171;
 $panGreen: #30B08F;
 
 // sidebar
-$menuText:#bfcbd9;
-$menuActiveText:#409EFF;
-$subMenuActiveText:#f4f4f5; // https://github.com/ElemeFE/element/issues/12951
+$menuText:#bfcbd9;//普通按钮字体颜色
+$menuActiveText:#409EFF;//选择模块的字体颜色#F56C6C
+$subMenuActiveText:#f4f4f5; // https://github.com/ElemeFE/element/issues/12951//选中模块父级按钮字体颜色#E6A23C
 
-$menuBg:#304156;
-$menuHover:#263445;
+$menuBg:#304156;//菜单的整体背景色
+$menuHover:#263445;//菜单悬浮变色
 
-$subMenuBg:#1f2d3d;
-$subMenuHover:#001528;
+$subMenuBg:#1f2d3d;//子菜单背景色
+$subMenuHover:#001528;//子菜单悬浮背景色
 
-$sideBarWidth: 210px;
+$sideBarWidth: 210px;//侧边栏的宽度
 
 // the :export directive is the magic sauce for webpack
 // https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
