@@ -3,6 +3,8 @@ package com.guava.test.demo02.async;
 import com.google.common.eventbus.Subscribe;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 @Component
 public class EventListenerTask {
 
@@ -21,4 +23,9 @@ public class EventListenerTask {
         System.out.println("-----event-----"+event);
     }
 
+    @Subscribe
+    public void OneTask(List<String> list){
+        System.out.println("集合输出");
+        System.out.println("list:"+list);
+    }
 }
